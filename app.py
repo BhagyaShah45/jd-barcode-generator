@@ -400,7 +400,7 @@ def add_name_to_image(
 
     width, height = image.size
 
-    header_height = 90
+    header_height = 120
 
     canvas = Image.new(
         "RGB",
@@ -410,7 +410,7 @@ def add_name_to_image(
 
     draw = ImageDraw.Draw(canvas)
 
-    font = get_font(30)
+    font = get_font(45)
 
     bbox = draw.textbbox(
         (0, 0),
