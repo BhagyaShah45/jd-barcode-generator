@@ -464,7 +464,7 @@ st.markdown(
     """
     <div class="hero">
         <div class="hero-title">
-            ▥ Pro Barcode Studio
+            ▥ Barcode Studio
         </div>
     </div>
     """,
